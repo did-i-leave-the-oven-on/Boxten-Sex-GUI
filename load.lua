@@ -10,7 +10,7 @@
       gv=getgenv                   ()or _G.A;if             not task.
    wait then WOD                    =[[nop]]end             local p=[[a,.
    af$3s]];if gv                    .BSG_LOADED             then return""
-   end;gv["GS"..                     [[CA_L]]..             [[OA]].."D"..
+   end;gv["BS"..                     [[G_L]] ..             [[OA]].."D"..
    [[ED]] ]=true                      gv["SC"..             "RIPT_KEY" ]=
    "";local UH,A                       ,LC,O,QQ             =3,delay,0,[[
    Q]],nil;local                        IiA3fAo             =function(pa)
