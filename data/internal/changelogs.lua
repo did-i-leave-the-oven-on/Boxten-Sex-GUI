@@ -1,17 +1,13 @@
 return {
 	current = [[
-[NEW] • Added a "Show morph to other script users" toggle. (Main tab/Donor/Client sided morphs)
-[NEW] • Added a "OwOify script users" toggle. (Main tab/Donor/Actions)
-[NEW] • Added a "Blotspeak" toggle. (Main tab/Fun/Character)
-[NEW] • Added a "Clap" toggle. (Main tab/Fun/Emotes)
+[NEW] • Made the script load SIGNIFICANTLY more faster than before.
 
-[NEW] • Made it so the "Headsit player" input and toggle now uses Dandy's sitting animation.
-[NEW] • Made it so the "Machine aura" toggle doesn't force you on a machine if a Twisted is chasing you.
-[NEW] • Replaced the generic autofarming text for the Webhook logging to something more related to runs.
+[NEW] • Made it so the Webhook message for the "Player damaged", "Player healed", and "Floor reached" triggers include statistics of the player's inventory.
 
-[NEW] • Fixed the "Earn Investigator achievement" button not working at all.
+[NEW] • Fixed the "Directional indicators" toggle being initially toggled on despite its UI toggle being off.
 
-[NEW] • Attempted to fix the "Teleport to machine" button making proximity prompts disappear.
+[NEW] • Attempted to fix the script breaking completely when reaching the break room.
+[NEW] • Attempted to fix the "Anti fail skill checks" toggle crashing the client when toggling it on in some occasions.
 
 [sV1286] • Re-designed the UI.
 [sV1286] • Fully re-factored and optimized the script.
@@ -21,6 +17,18 @@ return {
 [sV1286] • Removed the "Donor" section from (Main tab/Fun) and gave it its own category.
 [sV1286] • Gave the script changelogs its own category. (Settings tab)
 
+[sV1300] • Added a "Autofarm Webhook action ping target" input box. (Main tab/Automation/Autofarm webhook)
+[sV1300] • Added an "Milestone threshold" option for the "Autofarm Webhook action triggers" dropdown. (Main tab/Automation/Autofarm webhook)
+[sV1300] • Added a "Milestone threshold" slider. (Main tab/Automation/Autofarm webhook)
+[sV1300] • Added a "Autofarm Webhook action ping select" dropdown. (Main tab/Automation/Autofarm webhook)
+[sV1300] • Added a "Auto Brusha inspire" toggle. (Main tab/Automation/Ability)
+[sV1300] • Added a "Auto Brusha inspire delay" slider. (Main tab/Automation/Ability)
+[sV1300] • Added a "Ad barrage script users" button. (Main tab/Donor/Actions)
+[sV1300] • Added a "Directional indicators" toggle. We don't talk about the "Twisted chasing indicators" toggle(Main tab/Visuals/Utility)
+[sV1298] • Added a "Show morph to other script users" toggle. (Main tab/Donor/Client sided morphs)
+[sV1298] • Added a "OwOify script users" toggle. (Main tab/Donor/Actions)
+[sV1298] • Added a "Blotspeak" toggle. (Main tab/Fun/Character)
+[sV1300] • Added a "Clap" toggle. (Main tab/Fun/Emotes)
 [sV1296] • Added a "Closed captions for Boxten" toggle. (Settings tab/UI Settings/Toons)
 [sV1296] • Added a "Closed captions for Poppy" toggle. (Settings tab/UI Settings/Toons)
 [sV1296] • Added a "Closed captions for Shrimpo" toggle. (Settings tab/UI Settings/Toons)
@@ -76,11 +84,22 @@ return {
 [sV1286] • Added a "Client sided Twisteds" section. (Main tab/Donor)
 [sV1286] • Added a "Client sided Items" section. (Main tab/Donor)
 
+[sV1300] • Fixed the "Twisted ESP" toggle not working properly on Twisted Waxwell.
+[sV1300] • Fixed the "Anti Ichor splotches" toggle not working at all.
+[sV1300] • Fixed the "Auto machine calibration" toggle not working at all.
+[sV1300] • Fixed the "Auto circle machine calibration" toggle not working at all.
+[sV1300] • Fixed the "Auto treadmill machine calibration" toggle not working at all.
+[sV1300] • Removed the "Twisted chasing indicators" toggle from the Main tab/Visuals/Utility section due to it becoming an in-game setting.
 [sV1286] • Removed the "Roleplay" section from (Main tab/Fun) due to all of its functions being patched.
 [sV1286] • Removed the "Twisteds" section from (Main tab/Local Player) due to most of the functions being patched.
 [sV1286] • Removed the "Buy event sticker" button due to it requiring event currency in order for it to work.
 [sV1286] • Removed the "Buy event skin" button due to it requiring event currency in order for it to work.
 
+[sV1301] • Made it so the autofarm forcefully resumes the teleport loop if it has been paused for too long to avoid problems with the autofarm pausing and never continuing.
+[sV1301] • Re-integrated the dual machine slot exploit for the autofarm.
+[sV1298] • Made it so the "Headsit player" input and toggle now uses Dandy's sitting animation.
+[sV1298] • Made it so the "Machine aura" toggle doesn't force you on a machine if a Twisted is chasing you.
+[sV1298] • Replaced the generic autofarming text for the Webhook logging to something more related to runs.
 [sV1296] • Made it so the "Fake Ichor" input and toggle also changes the Ichor label's text on the bottom left of the screen.
 [sV1296] • Adjusted the autofarm to make it so it doesn't make the player travel a ton to avoid your "Meters Walked" stat reaching gargantuan numbers.
 [sV1295] • Optimized some of the code a little due to the obfuscator creating loops that run in the background (?), resulting in the client crashing or disconnecting after a while.
@@ -97,6 +116,7 @@ return {
 [sV1286] • Made it so the encounter all Twisteds functions teleports the player above the Twisteds instead of the front.
 [sV1286] • Made it so the Twisteds ESP shows Twisted Glisten's current sanity.
 
+[sV1298] • Fixed the "Earn Investigator achievement" button not working at all.
 [sV1295] • Fixed the script crashing on execution.
 [sV1293] • Fixed the checks for the donor gamepass.
 [sV1293] • Fixed the "Webhook logging" toggle not logging anything at all.
@@ -107,6 +127,12 @@ return {
 [sV1288] • Fixed the script kicking you when executing it in a roleplay server.
 [sV1288] • Fixed the "Lock toggle button" toggle making the toggle button inactive.
 
+[sV1300] • Attempted to fix the script crashing the client after executing in some devices.
+[sV1300] • Attempted to fix an issue with the autofarm apparently breaking on some occasions when reaching the break room. (Ha ha. Get it?)
+[sV1301] • Attempted to fix the "Auto machine calibration" toggle not working at all.
+[sV1301] • Attempted to fix the "Auto circle machine calibration" toggle not working at all.
+[sV1301] • Attempted to fix the "Auto treadmill machine calibration" toggle not working at all.
+[sV1298] • Attempted to fix the "Teleport to machine" button making proximity prompts disappear.
 [sV1297] • Attempted to fix the "Auto use items" toggle not using extraction / stealth items on some occasions.
 [sV1297] • Attempted to fix the "Unmorph Twisted" button not destroying the morph model.
 [sV1297] • Attempted to fix the "Unmorph" button not destroying the morph model.
