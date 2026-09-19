@@ -1,14 +1,12 @@
 return {
 	current = [[
-[NEW] • Made the script load SIGNIFICANTLY more faster than before.
+[NEW] • Fixed the "Ichor puddle ESP" toggle duplicating the puddle's ESP text, leading to frame rate drops.
+[NEW] • Fixed the "Auto escape Squirm" toggle not working properly.
 
-[NEW] • Made it so the Webhook message for the "Player damaged", "Player healed", and "Floor reached" triggers include statistics of the player's inventory.
+[NEW] • Attempted to fix the script breaking when executed too early.
+[NEW] • Attempted to fix the autofarm not working properly.
 
-[NEW] • Fixed the "Directional indicators" toggle being initially toggled on despite its UI toggle being off.
-
-[NEW] • Attempted to fix the script breaking completely when reaching the break room.
-[NEW] • Attempted to fix the "Anti fail skill checks" toggle crashing the client when toggling it on in some occasions.
-
+[sV1303] • Made the script load SIGNIFICANTLY more faster than before.
 [sV1286] • Re-designed the UI.
 [sV1286] • Fully re-factored and optimized the script.
 [sV1286] • Renamed a few elements and updated their descriptions.
@@ -84,17 +82,13 @@ return {
 [sV1286] • Added a "Client sided Twisteds" section. (Main tab/Donor)
 [sV1286] • Added a "Client sided Items" section. (Main tab/Donor)
 
-[sV1300] • Fixed the "Twisted ESP" toggle not working properly on Twisted Waxwell.
-[sV1300] • Fixed the "Anti Ichor splotches" toggle not working at all.
-[sV1300] • Fixed the "Auto machine calibration" toggle not working at all.
-[sV1300] • Fixed the "Auto circle machine calibration" toggle not working at all.
-[sV1300] • Fixed the "Auto treadmill machine calibration" toggle not working at all.
 [sV1300] • Removed the "Twisted chasing indicators" toggle from the Main tab/Visuals/Utility section due to it becoming an in-game setting.
 [sV1286] • Removed the "Roleplay" section from (Main tab/Fun) due to all of its functions being patched.
 [sV1286] • Removed the "Twisteds" section from (Main tab/Local Player) due to most of the functions being patched.
 [sV1286] • Removed the "Buy event sticker" button due to it requiring event currency in order for it to work.
 [sV1286] • Removed the "Buy event skin" button due to it requiring event currency in order for it to work.
 
+[sV1303] • Made it so the Webhook message for the "Player damaged", "Player healed", and "Floor reached" triggers include statistics of the player's inventory.
 [sV1301] • Made it so the autofarm forcefully resumes the teleport loop if it has been paused for too long to avoid problems with the autofarm pausing and never continuing.
 [sV1301] • Re-integrated the dual machine slot exploit for the autofarm.
 [sV1298] • Made it so the "Headsit player" input and toggle now uses Dandy's sitting animation.
@@ -116,6 +110,12 @@ return {
 [sV1286] • Made it so the encounter all Twisteds functions teleports the player above the Twisteds instead of the front.
 [sV1286] • Made it so the Twisteds ESP shows Twisted Glisten's current sanity.
 
+[sV1303] • Fixed the "Directional indicators" toggle being initially toggled on despite its UI toggle being off.
+[sV1300] • Fixed the "Twisted ESP" toggle not working properly on Twisted Waxwell.
+[sV1300] • Fixed the "Anti Ichor splotches" toggle not working at all.
+[sV1300] • Fixed the "Auto machine calibration" toggle not working at all.
+[sV1300] • Fixed the "Auto circle machine calibration" toggle not working at all.
+[sV1300] • Fixed the "Auto treadmill machine calibration" toggle not working at all.
 [sV1298] • Fixed the "Earn Investigator achievement" button not working at all.
 [sV1295] • Fixed the script crashing on execution.
 [sV1293] • Fixed the checks for the donor gamepass.
@@ -127,6 +127,8 @@ return {
 [sV1288] • Fixed the script kicking you when executing it in a roleplay server.
 [sV1288] • Fixed the "Lock toggle button" toggle making the toggle button inactive.
 
+[sV1303] • Attempted to fix the script breaking completely when reaching the break room.
+[sV1303] • Attempted to fix the "Anti fail skill checks" toggle crashing the client when toggling it on in some occasions.
 [sV1300] • Attempted to fix the script crashing the client after executing in some devices.
 [sV1300] • Attempted to fix an issue with the autofarm apparently breaking on some occasions when reaching the break room. (Ha ha. Get it?)
 [sV1301] • Attempted to fix the "Auto machine calibration" toggle not working at all.
