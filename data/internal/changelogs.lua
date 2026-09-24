@@ -1,10 +1,7 @@
 return {
 	current = [[
-[NEW] • Fixed the "Ichor puddle ESP" toggle duplicating the puddle's ESP text, leading to frame rate drops.
-[NEW] • Fixed the "Auto escape Squirm" toggle not working properly.
-
-[NEW] • Attempted to fix the script breaking when executed too early.
-[NEW] • Attempted to fix the autofarm not working properly.
+[NEW] • Added a "Auto search Twisted Gigi's Stash" toggle. (Main tab/Automation/Utility)
+[NEW] • Added a "Teleport back after searching Twisted Gigi's Stash" toggle. (Main tab/Automation/Utility)
 
 [sV1303] • Made the script load SIGNIFICANTLY more faster than before.
 [sV1286] • Re-designed the UI.
@@ -110,6 +107,8 @@ return {
 [sV1286] • Made it so the encounter all Twisteds functions teleports the player above the Twisteds instead of the front.
 [sV1286] • Made it so the Twisteds ESP shows Twisted Glisten's current sanity.
 
+[sV1304] • Fixed the "Ichor puddle ESP" toggle duplicating the puddle's ESP text, leading to frame rate drops.
+[sV1304] • Fixed the "Auto escape Squirm" toggle not working properly.
 [sV1303] • Fixed the "Directional indicators" toggle being initially toggled on despite its UI toggle being off.
 [sV1300] • Fixed the "Twisted ESP" toggle not working properly on Twisted Waxwell.
 [sV1300] • Fixed the "Anti Ichor splotches" toggle not working at all.
@@ -127,6 +126,8 @@ return {
 [sV1288] • Fixed the script kicking you when executing it in a roleplay server.
 [sV1288] • Fixed the "Lock toggle button" toggle making the toggle button inactive.
 
+[sV1304] • Attempted to fix the script breaking when executed too early.
+[sV1304] • Attempted to fix the autofarm not working properly.
 [sV1303] • Attempted to fix the script breaking completely when reaching the break room.
 [sV1303] • Attempted to fix the "Anti fail skill checks" toggle crashing the client when toggling it on in some occasions.
 [sV1300] • Attempted to fix the script crashing the client after executing in some devices.
