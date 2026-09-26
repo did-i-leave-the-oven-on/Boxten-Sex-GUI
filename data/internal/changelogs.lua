@@ -1,7 +1,13 @@
 return {
 	current = [[
-[NEW] • Added a "Auto search Twisted Gigi's Stash" toggle. (Main tab/Automation/Utility)
-[NEW] • Added a "Teleport back after searching Twisted Gigi's Stash" toggle. (Main tab/Automation/Utility)
+[NEW] • Added a "Twisted radius indicator transparency" slider. (Main tab/Visuals/Environment)
+[NEW] • Added a "Change username tag" toggle. (Main tab/Visuals/Environment)
+[NEW] • Added a "Change display name tag" toggle. (Main tab/Visuals/Environment)
+
+[NEW] • Attempted to fix the autofarm refusing to quit machine extraction on some occasions.
+[NEW] • Attempted to fix the "Auto machine calibration" toggle not working at all.
+[NEW] • Attempted to fix the "Auto circle machine calibration" toggle not working at all.
+[NEW] • Attempted to fix the "Auto treadmill machine calibration" toggle not working at all.
 
 [sV1303] • Made the script load SIGNIFICANTLY more faster than before.
 [sV1286] • Re-designed the UI.
@@ -12,6 +18,8 @@ return {
 [sV1286] • Removed the "Donor" section from (Main tab/Fun) and gave it its own category.
 [sV1286] • Gave the script changelogs its own category. (Settings tab)
 
+[sV1305] • Added a "Auto search Twisted Gigi's Stash" toggle. (Main tab/Automation/Utility)
+[sV1305] • Added a "Teleport back after searching Twisted Gigi's Stash" toggle. (Main tab/Automation/Utility)
 [sV1300] • Added a "Autofarm Webhook action ping target" input box. (Main tab/Automation/Autofarm webhook)
 [sV1300] • Added an "Milestone threshold" option for the "Autofarm Webhook action triggers" dropdown. (Main tab/Automation/Autofarm webhook)
 [sV1300] • Added a "Milestone threshold" slider. (Main tab/Automation/Autofarm webhook)
