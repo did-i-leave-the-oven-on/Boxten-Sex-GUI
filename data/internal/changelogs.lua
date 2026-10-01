@@ -1,13 +1,14 @@
 return {
 	current = [[
-[NEW] • Added a "Twisted radius indicator transparency" slider. (Main tab/Visuals/Environment)
-[NEW] • Added a "Change username tag" toggle. (Main tab/Visuals/Environment)
-[NEW] • Added a "Change display name tag" toggle. (Main tab/Visuals/Environment)
+[NEW] • Fixed the "Twisted radius indicator transparency" slider not updating the indicators automatically when its supposed to.
 
-[NEW] • Attempted to fix the autofarm refusing to quit machine extraction on some occasions.
-[NEW] • Attempted to fix the "Auto machine calibration" toggle not working at all.
-[NEW] • Attempted to fix the "Auto circle machine calibration" toggle not working at all.
-[NEW] • Attempted to fix the "Auto treadmill machine calibration" toggle not working at all.
+[NEW] • Tried to fix the "Twisteds ESP" toggle not showing Twisted Goob's ability cooldown properly.
+[NEW] • Tried to fix the "Fire machine prompts" button not being able to find the right machine slot when its empty.
+[NEW] • Tried to fix the "Auto machine calibration" toggle not working at all.
+[NEW] • Tried to fix the "Auto circle machine calibration" toggle not working at all.
+[NEW] • Tried to fix the "Auto treadmill machine calibration" toggle not working at all.
+
+[NEW] • Fixed a few grammatical errors in some of the Toons' dialogue.
 
 [sV1303] • Made the script load SIGNIFICANTLY more faster than before.
 [sV1286] • Re-designed the UI.
@@ -18,6 +19,9 @@ return {
 [sV1286] • Removed the "Donor" section from (Main tab/Fun) and gave it its own category.
 [sV1286] • Gave the script changelogs its own category. (Settings tab)
 
+[sV1307] • Added a "Twisted radius indicator transparency" slider. (Main tab/Visuals/Environment)
+[sV1307] • Added a "Change username tag" toggle. (Main tab/Visuals/Environment)
+[sV1307] • Added a "Change display name tag" toggle. (Main tab/Visuals/Environment)
 [sV1305] • Added a "Auto search Twisted Gigi's Stash" toggle. (Main tab/Automation/Utility)
 [sV1305] • Added a "Teleport back after searching Twisted Gigi's Stash" toggle. (Main tab/Automation/Utility)
 [sV1300] • Added a "Autofarm Webhook action ping target" input box. (Main tab/Automation/Autofarm webhook)
@@ -134,6 +138,7 @@ return {
 [sV1288] • Fixed the script kicking you when executing it in a roleplay server.
 [sV1288] • Fixed the "Lock toggle button" toggle making the toggle button inactive.
 
+[sV1307] • Attempted to fix the autofarm refusing to quit machine extraction on some occasions.
 [sV1304] • Attempted to fix the script breaking when executed too early.
 [sV1304] • Attempted to fix the autofarm not working properly.
 [sV1303] • Attempted to fix the script breaking completely when reaching the break room.
