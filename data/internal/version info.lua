@@ -1,6 +1,6 @@
 return {
 	version = "1.3.0",
-	subversion = 1309,
+	subversion = 1310,
 	lastupdated = "Saturday October 3, 2026",
 
 	sections = {
