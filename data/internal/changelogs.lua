@@ -1,14 +1,12 @@
 return {
 	current = [[
-[NEW] • Fixed the "Twisted radius indicator transparency" slider not updating the indicators automatically when its supposed to.
+[NEW] • Updated the autofarm.
 
-[NEW] • Tried to fix the "Twisteds ESP" toggle not showing Twisted Goob's ability cooldown properly.
-[NEW] • Tried to fix the "Fire machine prompts" button not being able to find the right machine slot when its empty.
-[NEW] • Tried to fix the "Auto machine calibration" toggle not working at all.
-[NEW] • Tried to fix the "Auto circle machine calibration" toggle not working at all.
-[NEW] • Tried to fix the "Auto treadmill machine calibration" toggle not working at all.
+[NEW] • Fixed the "Toggle autofarm" toggle leaving the "Auto encounter Twisteds" toggle on when turning it off.
+[NEW] • Fixed the "Pick up all event items" button only picking up one Halloween Decor when there are more than one on the floor.
 
-[NEW] • Fixed a few grammatical errors in some of the Toons' dialogue.
+[NEW] • Tried to fix the "Machines ESP" toggle not applying the billboard text properly on the machines when the floor loads in.
+[NEW] • Tried to fix the "Twisteds ESP" toggle not applying the billboard text properly on the machines when the floor loads in.
 
 [sV1303] • Made the script load SIGNIFICANTLY more faster than before.
 [sV1286] • Re-designed the UI.
@@ -19,9 +17,9 @@ return {
 [sV1286] • Removed the "Donor" section from (Main tab/Fun) and gave it its own category.
 [sV1286] • Gave the script changelogs its own category. (Settings tab)
 
-[sV1307] • Added a "Twisted radius indicator transparency" slider. (Main tab/Visuals/Environment)
-[sV1307] • Added a "Change username tag" toggle. (Main tab/Visuals/Environment)
-[sV1307] • Added a "Change display name tag" toggle. (Main tab/Visuals/Environment)
+[sV1306] • Added a "Twisted radius indicator transparency" slider. (Main tab/Visuals/Environment)
+[sV1306] • Added a "Change username tag" toggle. (Main tab/Visuals/Environment)
+[sV1306] • Added a "Change display name tag" toggle. (Main tab/Visuals/Environment)
 [sV1305] • Added a "Auto search Twisted Gigi's Stash" toggle. (Main tab/Automation/Utility)
 [sV1305] • Added a "Teleport back after searching Twisted Gigi's Stash" toggle. (Main tab/Automation/Utility)
 [sV1300] • Added a "Autofarm Webhook action ping target" input box. (Main tab/Automation/Autofarm webhook)
@@ -91,12 +89,19 @@ return {
 [sV1286] • Added a "Client sided Twisteds" section. (Main tab/Donor)
 [sV1286] • Added a "Client sided Items" section. (Main tab/Donor)
 
+[sV1308] • Removed the "Quick mode" toggle due to the anticheat patch.
+[sV1308] • Removed the "Eggson mode" toggle due to the anticheat patch.
+[sV1308] • Removed the "Squirm mode" toggle due to the anticheat patch.
+[sV1308] • Removed the "Float distract" toggle due to the anticheat patch.
+[sV1308] • Removed the "Float distract height" slider due to the anticheat patch.
+[sV1308] • Removed the "Auto float distract" toggle due to the anticheat patch.
 [sV1300] • Removed the "Twisted chasing indicators" toggle from the Main tab/Visuals/Utility section due to it becoming an in-game setting.
 [sV1286] • Removed the "Roleplay" section from (Main tab/Fun) due to all of its functions being patched.
 [sV1286] • Removed the "Twisteds" section from (Main tab/Local Player) due to most of the functions being patched.
 [sV1286] • Removed the "Buy event sticker" button due to it requiring event currency in order for it to work.
 [sV1286] • Removed the "Buy event skin" button due to it requiring event currency in order for it to work.
 
+[sV1308] • Reverted the functions that rely on teleports, including the autofarm, back to a teleport bypass method that is 40% reliable. The autofarm still doesn't work.
 [sV1303] • Made it so the Webhook message for the "Player damaged", "Player healed", and "Floor reached" triggers include statistics of the player's inventory.
 [sV1301] • Made it so the autofarm forcefully resumes the teleport loop if it has been paused for too long to avoid problems with the autofarm pausing and never continuing.
 [sV1301] • Re-integrated the dual machine slot exploit for the autofarm.
@@ -119,6 +124,7 @@ return {
 [sV1286] • Made it so the encounter all Twisteds functions teleports the player above the Twisteds instead of the front.
 [sV1286] • Made it so the Twisteds ESP shows Twisted Glisten's current sanity.
 
+[sV1307] • Fixed the "Twisted radius indicator transparency" slider not updating the indicators automatically when its supposed to.
 [sV1304] • Fixed the "Ichor puddle ESP" toggle duplicating the puddle's ESP text, leading to frame rate drops.
 [sV1304] • Fixed the "Auto escape Squirm" toggle not working properly.
 [sV1303] • Fixed the "Directional indicators" toggle being initially toggled on despite its UI toggle being off.
@@ -138,7 +144,12 @@ return {
 [sV1288] • Fixed the script kicking you when executing it in a roleplay server.
 [sV1288] • Fixed the "Lock toggle button" toggle making the toggle button inactive.
 
-[sV1307] • Attempted to fix the autofarm refusing to quit machine extraction on some occasions.
+[sV1307] • Tried to fix the "Twisteds ESP" toggle not showing Twisted Goob's ability cooldown properly.
+[sV1307] • Tried to fix the "Fire machine prompts" button not being able to find the right machine slot when its empty.
+[sV1307] • Tried to fix the "Auto machine calibration" toggle not working at all.
+[sV1307] • Tried to fix the "Auto circle machine calibration" toggle not working at all.
+[sV1307] • Tried to fix the "Auto treadmill machine calibration" toggle not working at all.
+[sV1306] • Attempted to fix the autofarm refusing to quit machine extraction on some occasions.
 [sV1304] • Attempted to fix the script breaking when executed too early.
 [sV1304] • Attempted to fix the autofarm not working properly.
 [sV1303] • Attempted to fix the script breaking completely when reaching the break room.
@@ -167,6 +178,7 @@ return {
 [sV1288] • Attempted to fix the "Auto treadmill machine calibration" toggle not working properly on some occasions.
 [sV1286] • Attempted to fix the script not being able to load properly on some occasions.
 
+[sV1307] • Fixed a few grammatical errors in some of the Toons' dialogue.
 [sV1290] • Re-activated certain dialogue triggers for Boxten, Poppy, and Shrimpo.
 [sV1286] • Introduced Shrimpo.
 [sV1286] • Added more messages to Poppy.
