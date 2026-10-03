@@ -1,7 +1,7 @@
 return {
 	version = "1.3.0",
-	subversion = 1308,
-	lastupdated = "Friday October 2, 2026",
+	subversion = 1309,
+	lastupdated = "Saturday October 3, 2026",
 
 	sections = {
 		library = 22,
