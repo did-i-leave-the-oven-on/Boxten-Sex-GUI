@@ -1,7 +1,7 @@
 return {
 	version = "1.3.0",
 	subversion = 1312,
-	lastupdated = "Friday October 9, 2026",
+	lastupdated = "Friday October 16, 2026",
 
 	sections = {
 		library = 22,
@@ -12,7 +12,7 @@ return {
 		navigationsection = 22,
 		visualssection = 23,
 		localplayersection = 25,
-		automationsection = 26,
+		automationsection = 25,
 		animationssection = 22,
 		funsection = 22,
 		donorsection = 22,
