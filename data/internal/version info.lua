@@ -10,7 +10,7 @@ return {
 
 		mainsection = 22,
 		navigationsection = 22,
-		visualssection = 22,
+		visualssection = 23,
 		localplayersection = 25,
 		automationsection = 24,
 		animationssection = 22,
