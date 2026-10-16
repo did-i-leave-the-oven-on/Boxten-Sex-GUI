@@ -12,7 +12,7 @@ return {
 		navigationsection = 22,
 		visualssection = 23,
 		localplayersection = 25,
-		automationsection = 24,
+		automationsection = 25,
 		animationssection = 22,
 		funsection = 22,
 		donorsection = 22,
